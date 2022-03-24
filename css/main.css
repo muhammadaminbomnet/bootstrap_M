@@ -1,0 +1,17 @@
+.img{height: 410px;
+    object-fit: cover;}
+.style{ margin-left: 50px;}
+.rounded-circle{ width: 250px;}
+.row-12{display: flex;}
+@media ( max-width:1000px ){
+    .row-12{display: block !important; 
+        text-align: center;}
+    ul{margin:0px !important;}
+    .col-5{ width: 100% !important;}
+    .col-2{ width: 100% !important;}}
+@media ( max-width:480px ){
+    input{ width: 150px !important;}
+    .col-5 ul {display: block !important;}
+    ul li{list-style-type: none;}
+    .h2{ font-size: 1rem !important;}
+}
